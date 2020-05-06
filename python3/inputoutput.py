@@ -1,5 +1,5 @@
 # Basic Input
-# Input: a line of input from STDIN 
+# Input: Read a line of input input from STDIN
 # Output: string
 input_str = input()
 
@@ -8,7 +8,8 @@ input_str = input()
 input_list = map(int, input().split())
 
 # Basic Output
-# print function outputs data to STDOUT
+# outputs data to STDOUT
+# this adds a newline character at the end
 print(output_data)
 
 
@@ -20,4 +21,5 @@ from sys import stdin, stdout
 input_str = stdin.readlines()
 
 # Output to STDOUT
+# no newline character is added
 stdout.write(output_data)
