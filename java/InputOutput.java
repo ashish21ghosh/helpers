@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 public class InputOutput {
     public static void main(String[] args) { 
@@ -21,12 +22,18 @@ public class InputOutput {
         Long dataLong = scanner.nextLong();
         // Reads a short value from STDIN
         Long dataShort = scanner.nextShort();
-	 
-		// Output
-		// outputs data to STDOUT
-		// with a newline character at the end
-    	System.out.println(outputData);
-    	// without a newline character
-    	System.out.print(outputData);
-   	}
+
+        // Output
+        // outputs data to STDOUT
+        // with a newline character at the end
+        System.out.println(outputData);
+        // without a newline character
+        System.out.print(outputData);
+
+        // Buffered input
+        // create a buffered input reader object
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        // read a line from STDIN
+        String dataStr = bufferedReader.readLine();
+        }
 }
