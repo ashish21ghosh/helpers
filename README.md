@@ -1,2 +1,4 @@
 # helpers
-Helper functions in different programming languages
+* Learn programming languages
+* Data structures and algorithms
+* Helper functions
